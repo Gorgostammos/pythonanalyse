@@ -42,9 +42,9 @@ spørsmal_11_antall = [spørsmal_11_antall_personer_som_valgte_samme_svar[altern
 # Plotting
 plt.plot(alternativer, spørsmal_4_antall, marker='o', label='Før at de hører talen ')
 plt.plot(alternativer, spørsmal_11_antall, marker='o', label='Etter at de hørte talen ')
-plt.xlabel('Svat alternativer')
-plt.ylabel('Antall personer')
-plt.title('Sammenligningen av svardatene før og etter å ha hørt talen')
+plt.xlabel('Svar alternativer')
+plt.ylabel('Antall Deltaker')
+plt.title('')
 plt.xticks(alternativer)  # Setter aksetikettene til å være alternativene
 plt.legend()
 plt.grid(True)
